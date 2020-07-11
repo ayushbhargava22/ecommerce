@@ -1,21 +1,74 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <ul>
-          <li>
-            <a class="nav-item nav-link active" routerLink="/">Home <span class="sr-only">(current)</span></a>
-        
-          </li>
-          <li>
-            <a class="nav-item nav-link" routerLink="boys">Features</a>
-          </li>
-        </ul>
-    
-        
+<div class="navbar">
+  <div class="top-navbar">
+    <div class="top-navbar-container">
+      <ul class="top-navbar-contact contact-info-nav">
+        <li class="navbar-phn">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <p class="navbar-phoneno">Call +123 456 789</p>
+        </li>
+        <li class="navbar-email">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <p class="navbar-emailid">Care@stylekid.com</p>
+        </li>
+        <li class="navbar-whatsapp">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          <p class="navbar-whatsappno">+7300 176 296</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="middle-navbar">
+    <div class="middle-navbar-container">
+      <div class="middle-navbar-left">
+        <div class="main-logo">
+          <a routerLink="/">
+            <img src="../../../assets/images/stylekid-logo.png">
+          </a>
+        </div>
+      </div>
+      <div class="navbar-search">
+        <form action="" method="">
+          <input class="search__input" type="text" placeholder="Search entire store here...">
+        </form>
+      </div>
+      <div class="middle-navbar-right">
+        <div class="user-account">
+          <span class="account-redirect"><h4>ACCOUNT</h4></span>
+        </div>
+        <div class="productCart">
+          <img src="../../../assets/images/home-page/shooping-cart.png">
+        </div>
       </div>
     </div>
-</nav>
+  </div>
+  <div class="menu-links">
+    <div class="menu-links-container">
+      <ul class="nav-links">
+        <li>
+          <a class="nav-item nav-link active" routerLink="whatsnew">What's New<span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" routerLink="baby">Baby<img src="../../../assets/images/home-page/Icon ionic-ios-arrow-down.png"></a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" routerLink="girls">Girls<img src="../../../assets/images/home-page/Icon ionic-ios-arrow-down.png"></a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" routerLink="boys">Boys<img src="../../../assets/images/home-page/Icon ionic-ios-arrow-down.png"></a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" routerLink="ethinicwear">Ethinic Wear<img src="../../../assets/images/home-page/Icon ionic-ios-arrow-down.png"></a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" routerLink="accessories">Accessories<img src="../../../assets/images/home-page/Icon ionic-ios-arrow-down.png"></a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" routerLink="sale">Sale</a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" routerLink="blog">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

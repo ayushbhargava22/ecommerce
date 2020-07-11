@@ -1,0 +1,130 @@
+/*common css for navbar*/
+.navbar{padding: 0;}
+p{margin-bottom: 0;}
+
+/*top-navbar css starts*/
+.top-navbar{
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.top-navbar-container{
+    padding: 0.7rem;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.top-navbar-contact{
+    list-style: none;
+    display: flex;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    align-items: center;
+    width: 100%;
+}
+.navbar-phn , .navbar-email , .navbar-whatsapp{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.top-navbar-contact .fa{margin-right: 0.5rem;}
+.navbar-phn .fa{font-size: 16px;}
+.navbar-email .fa{font-size: 16px;}
+.navbar-whatsapp .fa{font-size: 18px;}
+/*top-navbar ends*/
+
+/*middle navbar starts*/
+.middle-navbar{
+    width: 100%;
+    background-color: #ED54A4;
+    color: #000;
+}
+.middle-navbar-container{
+    display: flex;
+    padding-left: 1.2rem;
+    padding-right: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.main-logo img{height: 140px;}
+.middle-navbar-right{display: flex;}
+.account-redirect h4{
+    padding-right: 2rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+.productCart img{font-size: 18px;height: 1.6rem;cursor: pointer;}
+.navbar-search form{
+    width: 24rem;
+}
+.search__input{
+    width: 100%;
+    padding: 12px 24px;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    background-color: transparent;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #000;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.search__input[paceholder]
+{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.search__input:hover{
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    background-position: 100% center;
+}
+.search__input:focus{
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    background-position: 100% center;
+}
+/*middle navbar ends*/
+
+/*menu links start*/
+.menu-links{
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.menu-links-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.nav-links{
+    margin-block-end: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-links li img{
+    margin-left: 0.5rem;
+}
