@@ -128,3 +128,11 @@ p{margin-bottom: 0;}
 .nav-links li img{
     margin-left: 0.5rem;
 }
+.nav-links li:hover{
+    background-color: #ED54A4;
+    color:#ffffff;
+}
+.nav-links a:hover{
+    color: #ffffff;
+}
+/*menu links ends*/
