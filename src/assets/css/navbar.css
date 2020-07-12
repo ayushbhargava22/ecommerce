@@ -10,11 +10,17 @@ p{margin-bottom: 0;}
     height: 35px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .top-navbar-container{
     padding: 0.7rem;
     padding-bottom: 0;
     padding-top: 0;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+    background-color: #000;
 }
 .top-navbar-contact{
     list-style: none;

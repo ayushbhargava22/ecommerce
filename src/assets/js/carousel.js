@@ -4,3 +4,14 @@ $(document).ready(function(){
     })
 })
 console.log("Aa")
+
+
+$(document).ready(() => {
+    $('#slideshow .slick').slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+        dots: false,
+        prevArrow: false,
+        nextArrow: false
+    });
+})
