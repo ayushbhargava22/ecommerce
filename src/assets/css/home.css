@@ -75,6 +75,64 @@
 }
 .safety-essential p, .indian-ethical p{
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 50px;
+    color: rgba(0, 0, 0, 0.473);
+    font-family: 'Satisfy', cursive;
+}
+.section-2{
+    padding-top: 40px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.sale-monsoon-wrap{
+    margin: 0 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.monsoon, .sale{
+    width: 50%;
+}
+.monsoon{
+    margin-right: 50px;
+}
+.monsoon-wrap img , .sale-wrap img{
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+.section-3-wrap{
+    display: flex;
+}
+.character , .spring , .moments{
+    width: 33.33%;
+}
+.character img , .spring img , .moments img{
+    width: 100%;
+}
+.character-wrap{
+    display: flex;
+    margin: 0 0.7rem;
+}
+.character img{
+    width: 50%;
+}
+.moments{
+    margin-right: 0.7rem;
+}
+.spring img{
+    padding: 0 20px;
+}
+.explore-more{
+    margin-top: 40px;
+}
+.explore-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore-category img{
+    width: 30%;
+    padding: 0;
 }

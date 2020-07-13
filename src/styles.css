@@ -1,14 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import 'assets/css/navbar.css';
 @import 'assets/css/home.css';
 @import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css';
+@import 'assets/css/footer.css';
 body{
     margin: 0;
     padding: 0;
     border: 0;  
     min-height: 100%;
     display: block;
+    font-family: 'Inter', sans-serif;
 }
 *{
     box-sizing: border-box;
