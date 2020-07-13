@@ -20,4 +20,61 @@
 .home-page-category-wrap{
     padding: 0.7rem;
     padding-top: 0;
+    display: flex;
+}
+.safety-essential{
+    width: 25%;
+}
+.safety-essential img{
+    width: 100%;
+}
+.categories{
+    width: 43%;
+    margin: 0 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+.categories-wrap h1{
+    font-size: 25px;
+    margin-left: 40px;
+}
+.category-photos{
+    /*width: 60vw;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-column-gap: .1rem;
+    grid-row-gap: 1rem;*/
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+}
+.category-photos img{
+    height: 10rem;
+}
+.indian-ethical{
+    width: 32%;
+}
+.indian-ethical img{
+    margin-top: 60px;
+    width: 100%;
+}
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tile{
+    display: inline-block;
+    vertical-align: top;
+}
+.safety-essential p, .indian-ethical p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
 }

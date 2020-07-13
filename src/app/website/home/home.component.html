@@ -13,12 +13,13 @@
             <div class="home-page-category-wrap">
                 <div class="safety-essential">
                     <img src="../../../assets/images/home-page/safety.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
                 </div>
                 <div class="categories">
                     <div class="categories-wrap">
                         <h1>Shop By Category</h1>
                         <div class="category-photos">
-                            <div class="boys">
+                            <!--<div class="boys">
                                 <img src="../../../assets/images/category/boys.jpg">
                             </div>
                             <div class="girls">
@@ -44,12 +45,46 @@
                             </div>
                             <div class="personal">
                                 <img src="../../../assets/images/category/daily.jpg">
+                            </div>-->
+                            <div class="row ng-scope" ng-repeat="tileRow in vm.boutique.tile_details">
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/boys.jpg">
+                                </div>
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/girls.jpg">
+                                </div>
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/baby.jpg">
+                                </div>
+                            </div>
+                            <div class="row ng-scope" ng-repeat="tileRow in vm.boutique.tile_details">
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/boys-foot.jpg">
+                                </div>
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/girls-foot.jpg">
+                                </div>
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/baby-foot.jpg">
+                                </div>
+                            </div>
+                            <div class="row ng-scope" ng-repeat="tileRow in vm.boutique.tile_details">
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/adds-on.jpg">
+                                </div>
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/safety.jpg">
+                                </div>
+                                <div class="tile ng-scope" ng-repeat="tile in tileRow.tileGrid" style="width: 26%;">
+                                    <img src="../../../assets/images/category/daily.jpg">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="indian-ethical">
                     <img src="../../../assets/images/home-page/ethnic.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
                 </div>
             </div>
         </div>
