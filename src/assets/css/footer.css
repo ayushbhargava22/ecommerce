@@ -1,0 +1,137 @@
+.footer{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #ed54a379;
+}
+.footer-container{
+    max-width: none !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0!important;
+}
+.inner-container{
+    padding: 0 15px;
+}
+.clearfix{
+    display: flex;
+}
+.clearfix , .footer-left{
+    margin: 0 1%;
+}
+.footer-left{
+    width: 23%;
+}
+.block-title{
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    line-height: 1.25em;
+}
+.block-title p{
+    text-align: justify;
+}
+.company-footer , .help , .customer-care{
+    width: 23%;
+    margin: 0 1%;
+}
+.bullets , .customer-care-bullets{
+    list-style: none ;
+    margin: 0 0 1em;
+    padding: 0;
+}
+.bullets li , .customer-care-bullets li{
+    padding-left: 10px;
+}
+.bullets li::before{
+    content: ">";
+    padding-right: 5px;
+    color: gray;
+    font-weight: 800;
+}
+.customer-care-bullets .fa{
+    color: white;
+    font-size: 20px;
+    border: 1px solid #ed54a379;
+    padding: 10px;
+    background-color: #ed54a379;
+    border-radius: 50%;
+}
+.customer-care-bullets li{
+    display: flex;
+    padding-bottom: 10px;
+}
+.customer-care-bullets li #secound{
+    padding: 12px 14px;
+}
+.customer-care-bullets li #third{
+    padding: 13px 14px;
+}
+.customer-care-content{
+    margin-left: 10px;
+}
+.additional-options{
+    display: flex;
+}
+.secoundary-block{
+    width: 25%;
+    margin-left: 1.5%;
+}
+.mobile-collapse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-collapse h6{
+    margin-top: 20px;
+}
+.secoundary-block ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0px;
+}
+.mobile-logo{
+    width: 73px;
+}
+#header-logo{
+    padding: 15px;
+    /*border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #ed54a379;*/
+    margin-bottom: 10px;
+    color: #000000;
+}
+.apps , .social-icons{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.apps h6{
+    margin-top: 12px;
+}
+.social-icons h6{
+    margin-top: 12px;
+}
+.apps li:nth-child(1)
+{
+    margin-right: 15px;
+}
+.social-icons li
+{
+    margin-right: 10px;
+}
+.social-icons{
+    margin-left: 20px;
+}
+.social-icons li .fa , .apps li .fa{
+    font-size: 20px;
+}
+.thumbs{
+    font-size: 28px;
+}

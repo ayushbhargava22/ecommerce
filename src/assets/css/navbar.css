@@ -108,6 +108,9 @@ p{margin-bottom: 0;}
     border-radius: 0;
     background-position: 100% center;
 }
+.account-redirect h4{
+    color: #000000;
+}
 /*middle navbar ends*/
 
 /*menu links start*/

@@ -1,3 +1,4 @@
+import { AccountComponent } from './website/account/account.component';
 import { AccessoriesComponent } from './website/accessories/accessories.component';
 import { EthinicwearComponent } from './website/ethinicwear/ethinicwear.component';
 import { BlogComponent } from './website/blog/blog.component';
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path: 'whatsnew', component: WhatsnewComponent},
   {path: 'blog', component:BlogComponent},
   {path: 'ethinicwear', component:EthinicwearComponent},
-  {path: 'accessories', component:AccessoriesComponent}
+  {path: 'accessories', component:AccessoriesComponent},
+  {path: 'account', component:AccountComponent}
 ];
 
 @NgModule({
