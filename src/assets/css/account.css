@@ -142,3 +142,46 @@
     background-color: #ed54a33d;
     color: #6e6868;
 }
+.my-deatils{
+    width: 75%;
+    float: right;
+    position: relative;
+}
+.menu-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+    border-radius: 4px;
+    margin: 0 24px;
+    padding: 24px 36px 0;
+}
+/*#e0f5fb*/
+.row-heading{
+    padding: 24px 36px 0;
+    margin: 0 15px;
+}
+.row-heading-wrap{
+    display: flex;
+    align-items: center;
+    background-color: #c3eaf5;
+}
+.row-heading-wrap .fa{
+    padding: 4px 8px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    background-color: #0a7de9;
+    color: white;
+}
+.row-heading-wrap p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: normal;
+}
+.row-heading-wrap span{
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
