@@ -27,6 +27,7 @@
               "src/styles.css"
             ],
             "scripts": [
+              "src/assets/js/nav.js",
               "src/assets/js/carousel.js"
             ]
           },
