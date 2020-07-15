@@ -1,0 +1,53 @@
+.baby-wrap{
+    width: 1080px;
+    margin: 0 auto 26px;
+}
+.baby-collection{
+    margin-top: 24px;
+    height: auto;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.baby-collection-wrap{
+    box-shadow: none;
+    bottom: 0;
+    background-color: transparent;
+    background: none;
+    transition: box-shadow .15s ease-out,bottom .2s ease;
+    position: relative;
+    bottom: 0;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+}
+.image-baby
+{
+    width: 100%;
+    background-size: 100%;
+    opacity: 1;
+    transition: opacity 1s ease-in-out 0s;
+    position: relative;
+}
+.baby-row .image-1{
+    background-image: url(https://static.hopscotch.in/fstatic/product/202006/d1873a21-c15e-4fab-804a-b55422039235_full.jpg?version=1591350);
+    padding-bottom: 11.1%;
+}
+.baby-row .image-2{
+    background-image: url(https://static.hopscotch.in/fstatic/product/202006/9d128a0b-c21a-457e-b20f-0ac1530c4b57_full.jpg?version=1591350953610);
+    padding-bottom: 7.4%;
+}
+.baby-row .image-3{
+    background-image: url(https://static.hopscotch.in/fstatic/product/202006/73bad5e3-ed0d-494b-ab3d-493e8e0acf36_full.jpg?version=1591350959170);
+    padding-bottom: 7.4%;
+}
+.baby-row .image-4{
+    background-image: url(https://static.hopscotch.in/fstatic/product/202006/5f9a9bc9-7673-409c-af53-679f1fab32a4_full.jpg?version=1591350963853);
+    padding-bottom: 7.4%;
+}
+.baby-row .image-5{
+    background-image: url(https://static.hopscotch.in/fstatic/product/202006/bf5716ac-5ee4-4d8b-93aa-77ae4662633a_full.jpg?version=1591350969142);
+    padding-bottom: 7.4%;
+}

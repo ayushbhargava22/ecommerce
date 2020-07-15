@@ -26,7 +26,7 @@
           </a>
         </div>
       </div>
-      <div class="navbar-search">
+      <div class="navbar-search" id="searchbar">
         <form action="" method="">
           <input class="search__input" type="text" placeholder="Search entire store here...">
         </form>
@@ -40,7 +40,9 @@
           </span>
         </div>
         <div class="productCart">
-          <img src="../../../assets/images/home-page/shooping-cart.png">
+          <a routerLink = "cart">
+            <img src="../../../assets/images/home-page/shooping-cart.png">
+          </a>
         </div>
       </div>
     </div>
@@ -48,7 +50,7 @@
   <div class="menu-links" id="aaa">
     <div class="menu-links-container">
       <div class="mobile-menu">
-        <div class="mobile-menu-inner">
+        <div class="mobile-menu-inner" id="mobile-menu-close">
           <span class="trigger-icon" id="trigger">
             <span class="line"></span>
             <span class="line"></span>
@@ -56,7 +58,7 @@
           </span>
           <span class="label">Menu</span>
         </div>
-        <ul class="nn" id="nnn">
+        <ul class="nn" id="mobile-menu">
           <h5>ayush</h5>
         </ul>
       </div>

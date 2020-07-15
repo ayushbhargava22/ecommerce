@@ -16,6 +16,7 @@ import { BlogComponent } from './website/blog/blog.component';
 import { BabyComponent } from './website/baby/baby.component';
 import { FooterComponent } from './website/footer/footer.component';
 import { AccountComponent } from './website/account/account.component';
+import { CartComponent } from './website/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AccountComponent } from './website/account/account.component';
     BlogComponent,
     BabyComponent,
     FooterComponent,
-    AccountComponent
+    AccountComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
