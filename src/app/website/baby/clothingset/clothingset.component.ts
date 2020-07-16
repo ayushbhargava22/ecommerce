@@ -10,12 +10,14 @@ import { Component, OnInit , Input } from '@angular/core';
 })
 export class ClothingsetComponent implements OnInit {
 
-  products: Babyproduct[]
+  products: Babyproduct[] = []
   
   constructor(private babyproductService: BabyproductService) { }
 
-  ngOnInit(): void {
-    this.products = this.babyproductService.getProducts()
+  ngOnInit() {
+    this.babyproductService.getProducts().subscribe((products) => {
+      this.products = products;
+    })
   }
 
 }

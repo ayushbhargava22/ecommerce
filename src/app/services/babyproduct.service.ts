@@ -1,13 +1,15 @@
+import { HttpClient } from '@angular/common/http';
 import { Babyproduct } from './../models/babyproduct';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
-
+const apiUrl = "http://localhost:3000/babyclothingsetproducts";
 @Injectable({
   providedIn: 'root'
 })
 export class BabyproductService {
 
- products : Babyproduct[] = [
+ /*products : Babyproduct[] = [
    new Babyproduct(1, 'product1' , 'this is product one' , 100),
    new Babyproduct(2, 'product2' , 'this is product two' , 200),
    new Babyproduct(3, 'product3' , 'this is product three' , 300),
@@ -15,11 +17,11 @@ export class BabyproductService {
    new Babyproduct(5, 'product5' , 'this is product five' , 500),
    new Babyproduct(6, 'product6' , 'this is product six' , 600),
    new Babyproduct(7, 'product7' , 'this is product seven' , 700),
- ]
+ ]*/
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
-  getProducts(): Babyproduct[] {
-    return this.products
+  getProducts(): Observable<Babyproduct[]> {
+    return this.http.get<Babyproduct[]>(apiUrl);
   }
 }
