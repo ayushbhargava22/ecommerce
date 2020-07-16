@@ -17,6 +17,10 @@ import { BabyComponent } from './website/baby/baby.component';
 import { FooterComponent } from './website/footer/footer.component';
 import { AccountComponent } from './website/account/account.component';
 import { CartComponent } from './website/cart/cart.component';
+import { ClothingsetComponent } from './website/baby/clothingset/clothingset.component';
+import { ClothingsetitemComponent } from './website/baby/clothingsetitem/clothingsetitem.component';
+import { CartitemComponent } from './website/cart/cartitem/cartitem.component';
+
 
 @NgModule({
   declarations: [
@@ -33,7 +37,10 @@ import { CartComponent } from './website/cart/cart.component';
     BabyComponent,
     FooterComponent,
     AccountComponent,
-    CartComponent
+    CartComponent,
+    ClothingsetComponent,
+    ClothingsetitemComponent,
+    CartitemComponent,
   ],
   imports: [
     BrowserModule,
