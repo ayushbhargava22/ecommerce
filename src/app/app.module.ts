@@ -1,3 +1,4 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -22,6 +23,8 @@ import { CartComponent } from './website/cart/cart.component';
 import { ClothingsetComponent } from './website/baby/clothingset/clothingset.component';
 import { ClothingsetitemComponent } from './website/baby/clothingsetitem/clothingsetitem.component';
 import { CartitemComponent } from './website/cart/cartitem/cartitem.component';
+import { FiltersComponent } from './website/filters/filters.component';
+
 
 
 @NgModule({
@@ -43,6 +46,7 @@ import { CartitemComponent } from './website/cart/cartitem/cartitem.component';
     ClothingsetComponent,
     ClothingsetitemComponent,
     CartitemComponent,
+    FiltersComponent,
   ],
   imports: [
     BrowserModule,
