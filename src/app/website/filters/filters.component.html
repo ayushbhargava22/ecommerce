@@ -4,6 +4,80 @@
         <Span class="filter-btn">Clear All</Span>
     </div>
     <div class="filter-container">
+        <div class="filter-sec">
+            <div class="filter-block-wrapper">
+                <div class="filter-name" (click)="toggleShow()">
+                    <span class="filter-row-name">Shop For</span>
+                    <span class="fa fa-chevron-down"></span>
+                </div>
+                <div class="filter-list" *ngIf = "show">
+                    <div class="filter-sublist">
+                        <div class="filter-list-wrapper">
+                            <div class="filter-item">
+                                <input type="radio">
+                                <label class="filter-item-1">Boys</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="radio">
+                                <label class="filter-item-1">Girls</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Seound filter-->
 
+        <div class="filter-sec">
+            <div class="filter-block-wrapper">
+                <div class="filter-name" (click)="toogleHidden()">
+                    <span class="filter-row-name">Age</span>
+                    <span class="fa fa-chevron-down"></span>
+                </div>
+                <div class="filter-list"  [hidden] = "hidden">
+                    <div class="filter-sublist">
+                        <div class="filter-list-wrapper">
+                            <div class="filter-item">
+                                <input type="checkbox">
+                                <label class="filter-item-1">0 - 6 months</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox">
+                                <label class="filter-item-1">6- 12 months</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--third filter-->
+
+        <div class="filter-sec">
+            <div class="filter-block-wrapper">
+                <div class="filter-name" (click)="toggleVisible()">
+                    <span class="filter-row-name">Dilvery Time</span>
+                    <span class="fa fa-chevron-down"></span>
+                </div>
+                <div class="filter-list"  [style.visibility] = "visibility">
+                    <div class="filter-sublist">
+                        <div class="filter-list-wrapper">
+                            <div class="filter-item">
+                                <input type="checkbox">
+                                <label class="filter-item-1">In 1 week</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox">
+                                <label class="filter-item-1">In 2 weeks</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox">
+                                <label class="filter-item-1">In 3 weeks</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

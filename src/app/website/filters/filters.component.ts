@@ -7,6 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FiltersComponent implements OnInit {
 
+  
+  show = true;
+  toggleShow() {
+    this.show = !this.show;
+  }
+  
+  hidden = false ;
+  toogleHidden() {
+    this.hidden = !this.hidden
+  }
+
+  visibility = 'visible';
+  toggleVisible() {
+    this.visibility =
+      this.visibility == 'visible' ? 'hidden' : 'visible' ;
+  }
   constructor() { }
 
   ngOnInit(): void {
