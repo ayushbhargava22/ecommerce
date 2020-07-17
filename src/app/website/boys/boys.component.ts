@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoysComponent implements OnInit {
 
+  show = true;
+  toggleShow() {
+    this.show = !this.show;
+  }
+
   constructor() { }
 
   ngOnInit(): void {
