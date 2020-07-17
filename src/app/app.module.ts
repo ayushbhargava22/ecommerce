@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +19,10 @@ import { BabyComponent } from './website/baby/baby.component';
 import { FooterComponent } from './website/footer/footer.component';
 import { AccountComponent } from './website/account/account.component';
 import { CartComponent } from './website/cart/cart.component';
+import { ClothingsetComponent } from './website/baby/clothingset/clothingset.component';
+import { ClothingsetitemComponent } from './website/baby/clothingsetitem/clothingsetitem.component';
+import { CartitemComponent } from './website/cart/cartitem/cartitem.component';
+
 
 @NgModule({
   declarations: [
@@ -33,12 +39,16 @@ import { CartComponent } from './website/cart/cart.component';
     BabyComponent,
     FooterComponent,
     AccountComponent,
-    CartComponent
+    CartComponent,
+    ClothingsetComponent,
+    ClothingsetitemComponent,
+    CartitemComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
