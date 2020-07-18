@@ -1,0 +1,78 @@
+.filter-section{
+    padding-right: 20px;
+}
+.filter-header{
+    width: 100%;
+    min-width: 238px;
+    height: 64px;
+    border-radius: 4px 4px 0 0;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 20px 24px;
+}
+.filter-title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #707070;
+    float: left;
+}
+.filter-btn{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #a4a4a4;
+    padding-top: 5px;
+    cursor: pointer;
+    float: right;
+}
+.filter-container{
+    display: block;
+    border-radius: 0 0 4px 4px;
+    overflow: visible;
+    border-top: none;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+.filter-sec{
+    padding-top: 12px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+.filter-block-wrapper {
+    width: 236px;
+    height: 100%;
+    overflow: visible;
+    background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+.filter-name{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 0 24px;
+    color: #707070;
+    padding: 13px 24px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-sublist{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 0 0 12px;
+    color: #a4a4a4;
+    position: relative;
+}
+.filter-item{
+    padding: 8px 24px;
+    cursor: pointer;
+}
+.filter-item-1{
+    padding-left: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+}
