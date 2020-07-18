@@ -1,1 +1,11 @@
-<p>babybodysuits works!</p>
+<div class="clothing-set-container">
+    <div class="clothing-set-container-wrap">
+      <app-filters></app-filters>
+      <div class="row">
+        <div class="col-md-4" *ngFor = "let product of products">
+          <app-babybodysuitsitem [babybodysuitsitem] = "product"></app-babybodysuitsitem>
+        </div>
+      </div>
+    </div>
+  </div>
+  

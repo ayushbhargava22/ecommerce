@@ -1,1 +1,12 @@
-<p>babybodysuitsitem works!</p>
+<div class="card mb-4 shadow-sm">
+    <img class="bd-placeholder-img card-img-top" width="100%" [src] = "babybodysuitsitem.imageUrl">
+    <div class="card-body">
+      <p class="card-text">{{babybodysuitsitem.description}}</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary" (click)="handleAddToCart()">Add to cart</button>
+        </div>
+        <small class="text-muted"><strong>{{ babybodysuitsitem.price | currency : 'INR'}}</strong><p>{{ babybodysuitsitem.actualPrice | currency : 'INR' }}</p></small>
+      </div>
+    </div>
+</div>

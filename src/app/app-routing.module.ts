@@ -1,3 +1,4 @@
+import { BabybodysuitsComponent } from './website/baby/babybodysuits/babybodysuits.component';
 import { ClothingsetComponent } from './website/baby/clothingset/clothingset.component';
 import { CartComponent } from './website/cart/cart.component';
 import { AccountComponent } from './website/account/account.component';
@@ -26,7 +27,8 @@ const routes: Routes = [
   {path: 'accessories', component:AccessoriesComponent},
   {path: 'account', component:AccountComponent},
   {path: 'cart' , component:CartComponent},
-  {path: 'baby/clothingset' , component:ClothingsetComponent}
+  {path: 'baby/clothingset' , component:ClothingsetComponent},
+  {path: 'baby/babybodysuits', component:BabybodysuitsComponent}
 ];
 
 @NgModule({

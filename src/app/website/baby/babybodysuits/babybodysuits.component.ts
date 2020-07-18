@@ -1,3 +1,5 @@
+import { BabysuitService } from './../../../services/babysuit.service';
+import { Babysuit } from './../../../models/babysuit';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BabybodysuitsComponent implements OnInit {
 
-  constructor() { }
+  products: Babysuit[] = []
+
+  constructor(private babysuitservice: BabysuitService) { }
 
   ngOnInit(): void {
+    this.babysuitservice.getProducts().subscribe((products) => {
+      this.products = products;
+    })
   }
 
 }
