@@ -6,7 +6,7 @@
         <div class="btn-group">
           <button type="button" class="btn btn-sm btn-outline-secondary" (click)="handleAddToCart()">Add to cart</button>
         </div>
-        <small class="text-muted">{{ clothingsetItem.price | currency : 'INR'}}</small>
+        <small class="text-muted"><strong>{{ clothingsetItem.price | currency : 'INR'}}</strong><p>{{ clothingsetItem.actualPrice | currency : 'INR' }}</p></small>
       </div>
     </div>
 </div>

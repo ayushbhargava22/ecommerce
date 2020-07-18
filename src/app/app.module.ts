@@ -24,6 +24,8 @@ import { ClothingsetComponent } from './website/baby/clothingset/clothingset.com
 import { ClothingsetitemComponent } from './website/baby/clothingsetitem/clothingsetitem.component';
 import { CartitemComponent } from './website/cart/cartitem/cartitem.component';
 import { FiltersComponent } from './website/filters/filters.component';
+import { BabybodysuitsComponent } from './website/baby/babybodysuits/babybodysuits.component';
+import { BabybodysuitsitemComponent } from './website/baby/babybodysuitsitem/babybodysuitsitem.component';
 
 
 
@@ -47,6 +49,8 @@ import { FiltersComponent } from './website/filters/filters.component';
     ClothingsetitemComponent,
     CartitemComponent,
     FiltersComponent,
+    BabybodysuitsComponent,
+    BabybodysuitsitemComponent,
   ],
   imports: [
     BrowserModule,

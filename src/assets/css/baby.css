@@ -61,3 +61,6 @@
 .col-md-4{
     padding: 0;
 }
+.text-muted p {
+    text-decoration: line-through;
+}
