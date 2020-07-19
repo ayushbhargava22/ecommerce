@@ -16,11 +16,8 @@ p{margin-bottom: 0;}
     padding: 0.7rem;
     padding-bottom: 0;
     padding-top: 0;
-    position: fixed;
     top: 0%;
-    width: 100%;
     z-index: 10;
-    background-color: #000;
 }
 .top-navbar-contact{
     list-style: none;
@@ -186,6 +183,56 @@ p{margin-bottom: 0;}
         display: none;
     }
 }
-.nn{
-    display: none;
+.mobile-main-menu{
+    z-index: 3;
+    background-color: #eee;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.mobile-main-menu>ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+.mobile-nav-links{
+    list-style: none;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.nav-mobile-item{
+    line-height: 37px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333;
+    padding: 0 10px;
+}
+.nav-mobile-item span{
+    color: #333;
+    font-weight: 600;
+}
+@media screen and (max-width:710px)
+{
+    .navbar-search form{
+        width: 15rem;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .navbar-search form{
+        display: none;
+    }
+    .navbar-phn , .navbar-email , .navbar-whatsapp{
+        font-size: 10px;
+    }
+    .top-navbar-container{
+        padding-top: 7px;
+    }
 }

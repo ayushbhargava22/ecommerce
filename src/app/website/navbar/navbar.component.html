@@ -56,11 +56,42 @@
             <span class="line"></span>
             <span class="line"></span>
           </span>
-          <span class="label">Menu</span>
+          <span class="label" (click)="navLinks()">Menu</span>
         </div>
-        <ul class="nn" id="mobile-menu">
-          <h5>ayush</h5>
-        </ul>
+        <nav id="main-menu" class="mobile-main-menu" *ngIf = "show">
+          <ul>
+            <!--
+            <div class="navbar-search" id="searchbar">
+              <form action="" method="">
+                <input class="search__input" type="text" placeholder="Search entire store here...">
+              </form>
+            </div>-->
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="whatsnew"><span>What's New</span></a>
+            </li>
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="baby"><span>Baby</span></a>
+            </li>
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="girls"><span>Girls</span></a>
+            </li>
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="boys"><span>Boys</span></a>
+            </li>
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="ethinicwear"><span>Ethinic wear</span></a>
+            </li>
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="accessories"><span>Accessories</span></a>
+            </li>
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="sale"><span>sale</span></a>
+            </li>
+            <li class="mobile-nav-links">
+              <a class="nav-mobile-item" routerLink="blog"><span>blog</span></a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <ul class="nav-links">
         <li>
