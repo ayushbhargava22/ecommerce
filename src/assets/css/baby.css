@@ -64,3 +64,68 @@
 .text-muted p {
     text-decoration: line-through;
 }
+.quick-shop{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    max-height: 60%;
+    bottom: 122px;
+    left: 0%;
+    background-color: white;
+    transition: 200ms ease-in; 
+}
+.quick-shop{
+    opacity: 0;
+}
+.shadow-sm:hover .quick-shop{
+    opacity: 1;
+}
+.dilvery-time{
+    background-color: rgb(112, 112, 112);
+    color: white;
+    width: 100%;
+    margin-block-start: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px;
+}
+.size-heading{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.size-heading p:nth-child(1)
+{
+    color: black;
+    font-weight: 700;
+    padding: 4px;
+    padding-left: 20px;
+}
+.size-heading p:nth-child(2)
+{
+    color: gray;
+    padding: 4px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.size-list{
+    list-style-type: none;
+    display: flex;
+    padding-top: 15px;
+}
+.size-list li {
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    box-shadow: 1px 0 1px 0px gray;
+
+}
+.size-list li:nth-child(2){
+    margin-left: 15px;
+}

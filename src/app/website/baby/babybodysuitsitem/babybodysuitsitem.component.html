@@ -4,9 +4,26 @@
       <p class="card-text">{{babybodysuitsitem.description}}</p>
       <div class="d-flex justify-content-between align-items-center">
         <div class="btn-group">
-          <button type="button" class="btn btn-sm btn-outline-secondary" (click)="handleAddToCart()">Add to cart</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
         </div>
         <small class="text-muted"><strong>{{ babybodysuitsitem.price | currency : 'INR'}}</strong><p>{{ babybodysuitsitem.actualPrice | currency : 'INR' }}</p></small>
+        <div class="quick-shop">
+          <p class="dilvery-time">Get it in 2-3 weeks</p>
+          <div class="size">
+            <div class="size-heading">
+              <p>Select a size</p>
+              <p>View size chart</p>
+            </div>
+            <ul class="size-list">
+              <li>2-3 years</li>
+              <li>3-4years</li>
+            </ul>
+            <ul class="size-list">
+              <li>5-6 years</li>
+              <li>7-8 years</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 </div>
