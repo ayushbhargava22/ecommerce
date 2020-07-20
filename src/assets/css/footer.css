@@ -115,9 +115,11 @@
 }
 .apps h6{
     margin-top: 12px;
+    text-align: center;
 }
 .social-icons h6{
     margin-top: 12px;
+    text-align: center;
 }
 .apps li:nth-child(1)
 {
@@ -135,4 +137,44 @@
 }
 .thumbs{
     font-size: 28px;
+}
+.mobile-footer{
+    display: none;
+}
+@media screen and (max-width:850px){
+    .footer-left{
+        display: none;
+    }
+    .company-footer{
+        display: none;
+    }
+    .help{
+        display: none;
+    }
+    .customer-care{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+    }
+}
+.grid12-3{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mobile-collapsable-active h6{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.534);
+}
+.mobile-footer{width: 100%;}
+.grid12-3{
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+}
+
+@media screen and (max-width:590px){
+    .footer-secoundary{
+        display: none;
+    }
 }

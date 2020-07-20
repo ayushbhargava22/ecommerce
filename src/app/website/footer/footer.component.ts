@@ -7,9 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  show = false;
+  aboutDrop() {
+    this.show = !this.show;
+  }
+  
+  isDisplay = true;
+  toggleDisplay() {
+    this.isDisplay = !this.isDisplay;
+  }
+
+  showMe:boolean=false
   constructor() { }
 
+  careShow:boolean=false
   ngOnInit(): void {
+  }
+  toogleTag(){
+    this.showMe=!this.showMe;
+  }
+  toogleCare() {
+    this.careShow=!this.careShow;
   }
 
 }

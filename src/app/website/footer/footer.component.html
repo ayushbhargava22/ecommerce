@@ -3,6 +3,76 @@
     <div class="footer-container">
         <div class="inner-container">
             <div class="clearfix">
+                <div class="mobile-footer">
+                    <div class="grid12-3">
+                        <div class="mobile-collapsable-active">
+                            <h6 (click)="aboutDrop()">ABOUT STYLEKID</h6>
+                            <div class="mobile-content" *ngIf = "show">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et saepe optio aspernatur. Vitae esse nobis molestiae explicabo eius exercitationem maxime rem, ea qui, ut excepturi beatae quo eveniet. Nesciunt, maiores.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid12-3">
+                        <div class="mobile-collapsable-active">
+                            <h6 (click)="toggleDisplay()">Our Company</h6>
+                            <div class="mobile-content" [hidden]="isDisplay">
+                                <ul class="bullets">
+                                    <li>About Us</li>
+                                    <li>Contact Us</li>
+                                    <li>Style Kid Blog</li>
+                                    <li>Style Kid Moments</li>
+                                    <li>Terms and Condition</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Carrers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid12-3">
+                        <div class="mobile-collapsable-active">
+                            <h6 (click)="toogleTag()">Help & Info</h6>
+                            <div class="mobile-content" *ngIf="showMe">
+                                <ul class="bullets">
+                                    <li>Delivery & Shipping</li>
+                                    <li>Return, Exchanges & Cancellations</li>
+                                    <li>International Orders</li>
+                                    <li>Payments</li>
+                                    <li>Style Kid FAQ</li>
+                                    <li>Busniess Enquiry</li>
+                                    <li>Franchise Enquiry</li>
+                                    <li>Orders, Pre orders & Tracking</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid12-3">
+                        <div class="mobile-collapsable-active">
+                            <h6 (click)="toogleCare()">Customer Care</h6>
+                            <div class="mobile-content" *ngIf="careShow">
+                                <ul class="customer-care-bullets">
+                                    <li>
+                                        <i class="fa fa-phone"></i>
+                                        <p class="customer-care-content">Call Us 0172 255 255</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-mobile" id="secound"></i>
+                                        <p class="customer-care-content">7300176296</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope"></i>
+                                        <p class="customer-care-content"> care@kidstyle.com</p>
+                                    </li>
+                                    <li style="padding-left: 11px;">
+                                        <i class="fa fa-map-marker" id="third"></i>
+                                        <p class="customer-care-content">Kid style Fashion,25mpc
+                                            Block-4 Chigao(131992)
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="footer-left">
                     <div class="mobile-collapsable">
                         <h6 class="block-title">About Style Kid</h6>
@@ -78,7 +148,7 @@
                         <div class="mobile-collapse">
                             <i class="fa fa-info" id="header-logo"></i>
                             <h6>Need Help?</h6>
-                            <p>View our Knowledge Center</p>
+                            <p style="text-align: center;">View our Knowledge Center</p>
                         </div>
                     </div>
                     <div class="secoundary-block">
