@@ -28,11 +28,13 @@
 .safety-essential img{
     width: 100%;
 }
-.categories{
+.sec{
     width: 43%;
     margin: 0 30px;
     border-top: 1px solid #ccc;
     padding-top: 10px;
+}
+.categories{
     box-shadow: 1px 1px 2px 2px #ccc;
 }
 .categories-wrap h1{
@@ -136,7 +138,6 @@
     width: 30%;
     padding: 0;
 }
-
 @media screen and (max-width:900px)
 {
     .a img{
@@ -147,5 +148,95 @@
 {
     .a img{
         height: 200px;
+    }
+}
+@media screen and (max-width:1050px)
+{
+    .category-photos img{
+        height: 8rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px)
+{
+    .home-page-category-wrap{
+        display: block;
+    }
+    .safety-essential{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .safety-essential img{
+        width: 50%;
+    }
+    .categories{
+        margin-top: 20px;
+        width: 50%;
+    }
+    .sec{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    .categories-wrap h1{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .indian-ethical{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .indian-ethical img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:800px){
+    .sale-wrap img , .monsoon-wrap img{
+        height: 350px;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .sale-wrap img , .monsoon-wrap img{
+        height: 313px;
+    }
+    .categories{
+        width: 58%;
+    }
+}
+@media screen and (max-width:560px)
+{
+    .sale-wrap img , .monsoon-wrap img{
+        height: 260px;
+    }
+    .categories{
+        width: 68%;
+    }
+}
+@media screen and (max-width:470px)
+{
+    .sale-wrap img , .monsoon-wrap img{
+        height: 205px;
+    }
+    .categories{
+        width: 79%;
+    }
+}
+@media screen and (max-width:380px)
+{
+    .sale-wrap img , .monsoon-wrap img{
+        height: 180px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .categories{
+        width: 100%;
     }
 }
