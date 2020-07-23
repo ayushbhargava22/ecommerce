@@ -10,12 +10,9 @@
     padding-bottom: 50px;
 }
 .account-page-wrapper{
-    width: 960px;
+    width: 75%;
     margin: 24px;
     display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 .user-sec{
     float: left;
@@ -228,4 +225,30 @@
 .shop-btn p:hover{
     color: rgb(175, 153, 153);
     transition: ease 500ms;
+}
+@media screen and (max-width:900px)
+{
+    .each-menu-heading h5{
+        font-size: 15px;
+    }
+    .account-page-wrapper{
+        width: 94%;
+    }
+}
+@media screen and (max-width:800px){
+    .sign-in-button-wrap h5{
+        padding: 15px 30px;
+    }
+    .forget-button-wrap h5{
+        padding: 15px 17px;
+    }
+    .account-page-wrapper{
+        width: 92%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .each-menu-heading h5{
+        font-size: 13px;
+    }
 }
